@@ -67,8 +67,17 @@ const Flower = () => {
 
   return (
     <>
-    <section id='About' className='background-[#E3D4B5] w-screen h-[60rem]'>
-        <svg className='flower' xmlns="http://www.w3.org/2000/svg" viewBox="-25 0 150 100" width="150" height="100">
+    <section id='About' className=' flowerContainer w-screen '>
+
+        <div className='flex flex-wrap'>
+            <div className='flex flex-col'>
+                <div className='bg-[#f3f0ed] p-3 rounded-xl h-auto min-w-[250px]'>
+                <p className='text-[30px]'>Custom crafts <br/>made locally in Colorado</p>
+                </div>
+            </div>
+        </div>
+
+        <svg id='flower' xmlns="http://www.w3.org/2000/svg" viewBox="-25 0 150 100" width="150" height="100">
             <defs>
             <mask id="mask-petals">
                 <rect width="100" height="100" fill="hsl(0, 0%, 100%)" />
