@@ -9,7 +9,7 @@ function App() {
     <>
       <NavBar />
       <div className='container'>
-        <p className='flex justify-center color-blue'>test</p>
+        <p className='pt-32 flex justify-center'>test</p>
       </div>
     </>
   )
