@@ -312,6 +312,7 @@ ul:hover a:hover ~ a:before {
 .imgWrap {
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 .card-front, .card-back {

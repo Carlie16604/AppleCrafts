@@ -1,5 +1,5 @@
 import OG from '../assets/OG.jpg';
-import Blueberry from '../assets/Blueberry.jpg'
+import Juniper from '../assets/juniper.jpg'
 
 export const classes = [
     {
@@ -13,7 +13,7 @@ export const classes = [
     {
       id: 2,
       name: "Junipers",
-      img: Blueberry,
+      img: Juniper,
       description: "This bracelet was inspired by the colorful juniper berries seen on those evergreen shrubs.",
       price: "This lovely little lady is priced at $20, shipping not included",
       adjectives: ['Sweet', 'Juniper', '', ''],
