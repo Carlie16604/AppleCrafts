@@ -305,7 +305,7 @@ ul:hover a:hover ~ a:before {
   transform-style: preserve-3d;
 }
 
-.card-inner:hover {
+.card-inner:active {
   transform: rotateY(-180deg)
 }
 

@@ -27,6 +27,7 @@ const Classes = () => {
                                         <img className='imgWrap flex scale-x-[-1] brightness-50 rounded-tl-[100px]' src={info.img} alt={info.name} />
                                             <div className='overlay pt-[8.5rem] px-[1rem] text-[17px] cursor-default'>
                                                 <p>{info.description}</p><br/>
+                                                <p>{info.price}</p>
                                             </div>
                                     </div>
                                 </div>
