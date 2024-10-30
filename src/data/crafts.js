@@ -4,11 +4,11 @@ import Blueberry from '../assets/Blueberry.jpg'
 export const classes = [
     {
       id: 1,
-      name: "OG",
+      name: "Crab Apple",
       img: OG,
       description: "This is my original bracelet that started it all! Inspired by strawberry fields and summers in Colorado.",
       price: "Currently listed at $15, shipping not included",
-      adjectives: ['Cherry', 'Strawberry', '', ''],
+      adjectives: ['Apples', 'The Original', '', ''],
     },
     {
       id: 2,
