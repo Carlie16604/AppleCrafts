@@ -18,9 +18,9 @@ const NavBar = () => {
                 <div className='px-10 py-2'> 
                     <div className='flex justify-center'>
                         <ul className='font-medium cursor-pointer text-xl'>
-                            <a href='#About'>
+                            {/* <a href='#About'>
                                 <div>About</div>
-                            </a>
+                            </a> */}
                             <a href='#Crafts'>
                                 <div>Crafts</div>
                             </a>
