@@ -351,3 +351,16 @@ ul:hover a:hover ~ a:before {
   color:#2f4636;
   cursor: default;
 }
+
+.book {
+  position: absolute;
+  padding: .5rem 1rem;
+  bottom: 5%;
+  left: 5%;
+  cursor: pointer;
+}
+
+.book :hover {
+  transition-delay: 250ms;
+  transition-property: all ease-in-out;
+}

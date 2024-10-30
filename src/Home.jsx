@@ -2,7 +2,6 @@ import { useState } from 'react';
 import './input.css';
 import NavBar from './Components/NavBar.jsx';
 import Fireworks from './Components/Animation/Fireworks.jsx'
-import Flower from './Components/Flower.jsx';
 import Sun from './Components/Sun.jsx';
 import BG from './assets/background.jpg';
 
@@ -17,7 +16,6 @@ const Home = () => {
         {/* <Fireworks /> */}
         <Sun />
         <div className='container h-[95vh]'>
-          {/* <Flower /> */}
           <div className='pt-32'>
             <div className='flex flex-row-reverse'>
               <div className='my-[13rem] text-white text-[6rem] font-thin'>

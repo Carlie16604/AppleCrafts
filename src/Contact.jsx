@@ -1,7 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import validator from 'validator';
 import anime from "animejs";
+import ContactForm from "./Components/ContactForm";
+import mail from './assets/mail.svg';
 
-const Flower = () => {
+const Contact = () => {
+
   useEffect(() => {
     const path = anime.path("#path");
 
@@ -67,12 +71,15 @@ const Flower = () => {
 
   return (
     <>
-    <section id='About' className=' flowerContainer w-screen '>
+    <section id='Contact' className=' flowerContainer w-screen '>
 
+        {/* <ContactForm /> */}
         <div className='flex flex-wrap'>
             <div className='flex flex-col'>
                 <div className='bg-[#f3f0ed] p-3 rounded-xl h-auto min-w-[250px]'>
-                <p className='text-[30px]'>Custom crafts <br/>made locally in Colorado</p>
+                <p className='pb-3'>Like what you see? Let's chat! </p>
+                  {/* <svg src={mail} className='z-10 h-10 w-10' /> */}
+                    <a href='mailto:applecraftings@gmail.com' className="font-bold hover:text-yellow-500 transition-all duration-[.23s]">applecraftings@gmail.com</a>
                 </div>
             </div>
         </div>
@@ -149,4 +156,4 @@ const Flower = () => {
   );
 };
 
-export default Flower;
+export default Contact;

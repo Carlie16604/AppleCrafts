@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './input.css';
 import Home from './Home.jsx';
-import About from './About.jsx';
+import Contact from './Contact.jsx';
 import Crafts from './Crafts.jsx';
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <Home/>
-      <About />
       <Crafts />
+      <Contact />
     </>
   )
 }
