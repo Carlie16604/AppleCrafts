@@ -1,11 +1,12 @@
-import OG from '../assets/OG.jpg';
+// import OG from '../assets/OG.jpg';
+import apple from '../assets/apple.jpg';
 import Juniper from '../assets/juniper.jpg'
 
 export const classes = [
     {
       id: 1,
       name: "Crab Apple",
-      img: OG,
+      img: apple,
       description: "This is my original bracelet that started it all! Inspired by strawberry fields and summers in Colorado.",
       price: "Currently listed at $15, shipping not included",
       adjectives: ['Apples', 'The Original', '', ''],

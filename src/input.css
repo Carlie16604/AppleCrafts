@@ -311,7 +311,7 @@ ul:hover a:hover ~ a:before {
 
 .imgWrap {
   height: 100%;
-  width: 100%;
+  min-width: 448px;
   overflow: hidden;
 }
 
