@@ -16,11 +16,14 @@ const Home = () => {
         {/* <Fireworks /> */}
         <Sun />
         <div className='container h-[95vh]'>
-          <div className='pt-32'>
-            <div className='flex flex-row-reverse'>
-              <div className='my-[13rem] text-white text-[6rem] font-thin'>
+          <div className='pt-32 flex flex-row-reverse'>
+            <div className='flex flex-col my-[13rem]'>
+              <div className='text-white text-[6rem] font-thin'>
                 Apple <span className='text-[#f3c143]'>Crafts</span>
               </div>
+              <p className='text-[25px]'>
+                Creating unique pieces locally in Colorado with love
+              </p>
             </div>
           </div>
         </div>
