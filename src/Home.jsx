@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <NavBar />
-      <section>
+      <section id='Home'>
         <img src={BG} alt='img of downtown Denver, CO' rel='norel' className='z-[-1] absolute h-[95vh] overflow-hidden w-screen min-w-[1200px] object-cover brightness-95'/>
         {/* <Fireworks /> */}
         <Sun />

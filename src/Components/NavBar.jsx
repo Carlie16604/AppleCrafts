@@ -17,9 +17,9 @@ const NavBar = () => {
                     <img className='h-14 w-14 absolute left-[3%] hover:cursor-pointer' src={apple} alt='applecrafts logo' onClick={goTop}/>
                     <div className='flex justify-center'>
                         <ul className='font-medium cursor-pointer text-xl'>
-                            {/* <a href='#About'>
-                                <div>About</div>
-                            </a> */}
+                            <a href='#Home'>
+                                <div>Home</div>
+                            </a>
                             <a href='#Crafts'>
                                 <div>Crafts</div>
                             </a>

@@ -1,6 +1,8 @@
 // import OG from '../assets/OG.jpg';
-import apple from '../assets/apple.jpg';
-import Juniper from '../assets/juniper.jpg'
+import apple from '../assets/Bracelets/apple.jpg';
+import Juniper from '../assets/Bracelets/juniper.jpg'
+import Cherries from '../assets/Bracelets/cherries.jpeg'
+import Galaxy from '../assets/Bracelets/galaxy.jpeg'
 
 export const classes = [
     {
@@ -8,7 +10,7 @@ export const classes = [
       name: "Crab Apple",
       img: apple,
       description: "This is my original bracelet that started it all! Inspired by strawberry fields and summers in Colorado.",
-      price: "Currently listed at $15, shipping not included",
+      price: 15,
       adjectives: ['Apples', 'The Original', '', ''],
     },
     {
@@ -16,7 +18,23 @@ export const classes = [
       name: "Junipers",
       img: Juniper,
       description: "This bracelet was inspired by the colorful juniper berries seen on those evergreen shrubs.",
-      price: "This lovely little lady is priced at $20, shipping not included",
+      price: 20,
       adjectives: ['Sweet', 'Juniper', '', ''],
+    },
+    {
+      id: 3,
+      name: "Galaxy Berries",
+      img: Galaxy,
+      description: "This bracelet was inspired by the colorful juniper berries seen on those evergreen shrubs.",
+      price: 20,
+      adjectives: ['Space', 'Reflective', '', ''],
+    },
+    {
+      id: 4,
+      name: "Cherries",
+      img: Cherries,
+      description: "This bracelet was inspired by the colorful juniper berries seen on those evergreen shrubs.",
+      price: 15,
+      adjectives: ['Cherry', 'Sweet', '', ''],
     }
 ];

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import validator from 'validator';
 import anime from "animejs";
 import ContactForm from "./Components/ContactForm";
-import mail from './assets/mail.svg';
+// import mail from './assets/mail.svg';
 
 const Contact = () => {
 
