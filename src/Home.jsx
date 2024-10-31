@@ -12,16 +12,17 @@ const Home = () => {
     <>
       <NavBar />
       <section id='Home'>
-        <img src={BG} alt='img of downtown Denver, CO' rel='norel' className='z-[-1] absolute h-[95vh] overflow-hidden w-screen min-w-[1200px] object-cover brightness-95'/>
+        <img src={BG} alt='img of downtown Denver, CO' rel='norel' 
+        className='z-[-1] absolute top-0 left-0 h-[95vh] w-full object-cover brightness-95 sm:min-w-[1200px] sm:w-screen sm:h-[95vh] max-sm:h-[70vh] max-sm:w-auto max-sm:object-center overflow-hidden'/>
         {/* <Fireworks /> */}
         <Sun />
         <div className='container h-[95vh]'>
           <div className='pt-32 flex flex-row-reverse'>
-            <div className='flex flex-col my-[13rem]'>
-              <div className='text-white text-[6rem] font-thin'>
+            <div className='flex flex-col my-[13rem] max-sm:my-[8rem] max-sm:mx-4 titleBG'>
+              <div className='text-white text-[6rem] font-thin max-sm:text-[3rem] max-sm:text-center '>
                 Apple <span className='text-[#f3c143]'>Crafts</span>
               </div>
-              <p className='text-[25px]'>
+              <p className='text-[25px] max-sm:text-center max-sm:text-[1rem]'>
                 Creating unique pieces locally in Colorado with love
               </p>
             </div>
