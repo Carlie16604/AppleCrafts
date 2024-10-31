@@ -17,7 +17,7 @@ const Home = () => {
         {/* <Fireworks /> */}
         <Sun />
         <div className='container h-[95vh] max-sm:h-[40rem]'>
-          <div className='pt-32 flex flex-row-reverse'>
+          <div className='pt-32 flex flex-row-reverse max-sm:justify-center'>
             <div className='flex flex-col my-[13rem] max-sm:my-[8rem] max-sm:mx-4 titleBG'>
               <div className='text-white text-[6rem] font-thin max-sm:text-[3rem] max-sm:text-center '>
                 Apple <span className='text-[#f3c143]'>Crafts</span>
