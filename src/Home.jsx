@@ -16,7 +16,7 @@ const Home = () => {
         className='z-[-1] absolute top-0 left-0 h-[95vh] w-full object-cover brightness-95 sm:min-w-[1200px] sm:w-screen sm:h-[95vh] max-sm:h-[70vh] max-sm:w-auto max-sm:object-center overflow-hidden'/>
         {/* <Fireworks /> */}
         <Sun />
-        <div className='container h-[95vh]'>
+        <div className='container h-[95vh] max-sm:h-[40rem]'>
           <div className='pt-32 flex flex-row-reverse'>
             <div className='flex flex-col my-[13rem] max-sm:my-[8rem] max-sm:mx-4 titleBG'>
               <div className='text-white text-[6rem] font-thin max-sm:text-[3rem] max-sm:text-center '>

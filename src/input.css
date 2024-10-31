@@ -419,6 +419,13 @@ ul:hover a:hover ~ a:before {
   overflow: hidden;
 }
 
+@media (max-width: 600px) {
+  .imgWrap {
+    height: 400px;
+    min-width: 100px;
+  }
+}
+
 .card-front, .card-back {
   position: absolute;
   width: 100%;
@@ -468,6 +475,41 @@ ul:hover a:hover ~ a:before {
 .book :hover {
   transition-delay: 250ms;
   transition-property: all ease-in-out;
+}
+
+@media (max-width: 600px) {
+
+  .cardContainer {
+    gap: 1rem;
+    margin: none;
+  }
+
+  .imgWrap {
+    height: 400px;
+    min-width: 100px;
+  }
+
+  .card-front, .card-back {
+    width: auto;
+    height:auto;
+  }
+
+  .card-inner {
+    height: 80%;
+    width:400px;
+  }
+
+  .card {
+    width: 400px;
+  }
+
+  .adjectives {
+
+  }
+
+  .classType {
+    
+  }
 }
 
 /* Flower --------------------------------------------------------------------------- */
