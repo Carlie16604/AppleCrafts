@@ -13,7 +13,7 @@ const Home = () => {
       <NavBar />
       <section id='Home'>
         <img src={BG} alt='img of downtown Denver, CO' rel='norel' 
-        className='z-[-1] absolute top-0 left-0 h-[95vh] w-full object-cover brightness-95 sm:min-w-[1200px] sm:w-screen sm:h-[95vh] max-sm:h-[70vh] max-sm:w-auto max-sm:object-center overflow-hidden'/>
+        className='z-[-1] absolute top-0 left-0 h-[95vh] w-full object-cover brightness-95 sm:min-w-[1200px] sm:w-screen sm:h-[100vh] max-sm:h-[70vh] max-sm:w-auto max-sm:object-center overflow-hidden'/>
         {/* <Fireworks /> */}
         <Sun />
         <div className='container h-[95vh] max-sm:h-[40rem]'>
