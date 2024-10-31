@@ -12,7 +12,7 @@ const Classes = () => {
         <section id='Crafts'>
             <div className='container'>
                     <div className='flex-wrap mb-14 mx-12 relative'>
-                        <h1 className='pt-12 text-black text-[65px] flex stroke-black font-light max-sm:pt-5'>What we Offer</h1>
+                        <h1 className='pt-12 text-black text-[65px] flex stroke-black font-light max-sm:pt-20'>What we Offer</h1>
                         <span className='absolute w-[5.5rem] h-[4px] my-[-15px] bg-[#f3c143]'/>
                     </div>
                     <div className='cardContainer pb-12 max-sm:pb-2'>
