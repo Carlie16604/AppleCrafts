@@ -12,8 +12,8 @@ const Classes = () => {
         <section id='Crafts'>
             <div className='container'>
                     <div className='flex-wrap mb-14 mx-12 relative'>
-                        <h1 className='pt-12 text-black text-[65px] flex stroke-black font-light max-sm:pt-20'>What we Offer</h1>
-                        <span className='absolute w-[5.5rem] h-[4px] my-[-15px] bg-[#f3c143]'/>
+                        <h1 className='pt-12 text-black text-[65px] flex stroke-black font-light max-sm:pt-20 max-sm:text-[50px]'>What we Offer</h1>
+                        <span className='absolute w-[5.5rem] h-[4px] my-[-15px] bg-[#f3c143] max-sm:my-[-5px]'/>
                     </div>
                     <div className='cardContainer pb-12 max-sm:pb-2'>
                         {classes.map((info) => (
