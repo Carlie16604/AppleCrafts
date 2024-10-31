@@ -423,6 +423,7 @@ ul:hover a:hover ~ a:before {
   .imgWrap {
     height: 400px;
     min-width: 100px;
+    max-width: 358.73px;
   }
 }
 
@@ -496,11 +497,11 @@ ul:hover a:hover ~ a:before {
 
   .card-inner {
     height: 80%;
-    width:400px;
+    width:358.73px;
   }
 
   .card {
-    width: 400px;
+    width: 358.73px;
   }
 
   .adjectives {
