@@ -30,7 +30,7 @@ const NavBar = () => {
         <>
             <div className='p-0 w-full fixed z-10 shadow-xl min-w-[1200px] backdrop-blur-sm flex justify-center'>
                 <div className='px-10 py-2'> 
-                    <img className='h-14 w-14 absolute left-[3%] hover:cursor-pointer' src={apple} alt='applecrafts logo' onClick={goTop}/>
+                    <img className='h-14 w-14 absolute left-[3%] hover:cursor-pointer max-sm:justify-center max-sm:flex' src={apple} alt='applecrafts logo' onClick={goTop}/>
                     <div className='flex navChange'>
                     <div className={`nav-container ${sticky ? "cont-sticky" : ""}`}>
                         <ul className='font-medium cursor-pointer text-xl'>

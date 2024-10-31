@@ -69,6 +69,7 @@ body:not(.iOS) #lines * {
   .titleBG {
     background-color:hsl(40, 45%, 80%, .55) ;
     border-radius: 400px;
+    align-content: center;
   }
 }
 
@@ -303,11 +304,26 @@ ul:hover a:hover ~ a:before {
   color: #f3c143;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .hamburger-hamb {
       display: flex;
+      padding-right: 10rem;
   }
 }
+
+@media (max-width: 500px) {
+  .hamburger-hamb {
+      display: flex;
+      padding-right: 27rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .hamburger-hamb {
+      display: flex;
+      padding-right: 35rem;
+  }
+} */
 
 .mobile-nav-full {
   background-color: white;

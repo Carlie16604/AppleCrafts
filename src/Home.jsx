@@ -22,7 +22,7 @@ const Home = () => {
               <div className='text-white text-[6rem] font-thin max-sm:text-[3rem] max-sm:text-center '>
                 Apple <span className='text-[#f3c143]'>Crafts</span>
               </div>
-              <p className='text-[25px] max-sm:text-center max-sm:text-[1rem]'>
+              <p className='text-[25px] max-sm:text-center max-sm:text-[1rem] max-sm:pb-3 max-sm:px-3'>
                 Creating unique pieces locally in Colorado with love
               </p>
             </div>
