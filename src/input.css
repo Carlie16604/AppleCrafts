@@ -492,7 +492,7 @@ ul:hover a:hover ~ a:before {
 
   .card-front, .card-back {
     width: auto;
-    height:auto;
+    height: auto;
   }
 
   .card-inner {

@@ -75,9 +75,12 @@ const Contact = () => {
 
         {/* <ContactForm /> */}
         <div className='flex flex-wrap'>
-            <div className='flex flex-col'>
-                <div className='bg-[#f3f0ed] p-3 rounded-xl h-auto min-w-[250px]'>
-                <p className='pb-3'>Like what you see? Let's chat! </p>
+            <div className='flex flex-col gap-4'>
+                <div className='bg-[#f3f0ed] p-3 rounded-xl h-auto min-w-[250px] '>
+                <p className="text-center font-semibold">Want something different?<br/>We do custom orders!<br/></p>
+                </div>
+                <div className='bg-[#f3f0ed] p-3 rounded-xl h-auto min-w-[250px] text-center'>
+                <p className='pb-3'>Let's chat! </p>
                   {/* <svg src={mail} className='z-10 h-10 w-10' /> */}
                     <a href='mailto:applecraftings@gmail.com' className="font-bold hover:text-yellow-500 transition-all duration-[.23s]">applecraftings@gmail.com</a>
                 </div>
