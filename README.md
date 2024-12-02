@@ -1,8 +1,9 @@
-# React + Vite
+# Apple Crafts
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my website for my small business! I made it for ease of access to new drops on my designs! 
+<br/>
+Currently made with React & Tailwind. 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What I'm working on
+- Database for email subscriptions
+- New layout for a ore personalized feel
