@@ -1,4 +1,4 @@
-# Apple Crafts
+<h1 className='align-center'> Apple Crafts </h1>
 
 This is my website for my small business! I made it for ease of access to new drops on my designs! 
 <br/>
