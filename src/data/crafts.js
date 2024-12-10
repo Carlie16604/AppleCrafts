@@ -10,7 +10,7 @@ export const classes = [
       name: "Crab Apple",
       img: apple,
       description: "This is my original bracelet that started it all! Inspired by strawberry fields and summers in Colorado.",
-      price: 20,
+      price: 25,
       adjectives: ['Apples', 'The Original', '', ''],
     },
     {
@@ -18,7 +18,7 @@ export const classes = [
       name: "Junipers",
       img: Juniper,
       description: "This bracelet was inspired by the colorful juniper berries seen on those evergreen shrubs.",
-      price: 20,
+      price: 25,
       adjectives: ['Sweet', 'Juniper', '', ''],
     },
     {
@@ -26,7 +26,7 @@ export const classes = [
       name: "Galaxy Berries",
       img: Galaxy,
       description: "This bracelet was inspired by the colorful juniper berries seen on those evergreen shrubs.",
-      price: 20,
+      price: 25,
       adjectives: ['Space', 'Reflective', '', ''],
     },
     {
@@ -34,7 +34,7 @@ export const classes = [
       name: "Cherries",
       img: Cherries,
       description: "This bracelet was inspired by the colorful juniper berries seen on those evergreen shrubs.",
-      price: 20,
+      price: 25,
       adjectives: ['Cherry', 'Sweet', '', ''],
     }
 ];
