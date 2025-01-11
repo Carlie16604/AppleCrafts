@@ -382,12 +382,34 @@ ul:hover a:hover ~ a:before {
 
 /* Crafts ---------------------------------------------------------------------------------------- */
 
+.announcement {
+  color: #000;
+  position: relative;
+  text-decoration: none;
+}
+
+.announcement::before {
+  background: hsl(45 100% 70%);
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.announcement:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem 6.2rem;
   justify-content: center;
-  margin: 1rem 0 6rem 0;
+  /* margin: 1rem 0 6rem 0; */
 }
 
 .card-deck {
@@ -524,7 +546,7 @@ ul:hover a:hover ~ a:before {
   color: hsl(0, 0%, 15%);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .flowerContainer {
     display: flex;
     flex-direction: column;
