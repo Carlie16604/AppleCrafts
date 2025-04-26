@@ -16,7 +16,7 @@ const Classes = () => {
                         <span className='absolute w-[5.5rem] h-[4px] my-[-15px] bg-[#f3c143] max-sm:my-[-5px]'/> */}
                     </div>
                     <div className='cardContainer pb-24 pt-[4.6rem] max-sm:pb-2 max-sm:pt-1 text-center'>
-                        {/* {classes.map((info) => (
+                        {classes.map((info) => (
                             <div key={info.id} className={info.id % 2 !== 0 ? 'card-deck' : 'card-deck pt-12'}>
                                 <div className='card'>
                                     <div className='card-inner'>
@@ -42,10 +42,10 @@ const Classes = () => {
                                     <h3 className='classType'>{info.name}</h3>
                                 </div>
                             </div> 
-                        ))} */}
+                        ))} 
 
-                    <div className='announcement font-thin text-[3rem] max-sm:text-[2rem] max-sm:pb-4'>
-                        <h3>New jewelry coming soon!</h3>
+                    <div className='announcement font-thin text-[3rem] max-sm:text-[2rem] max-sm:pb-4 mt-40 mb-20'>
+                        <h3>More coming soon!</h3>
                     </div>
 
                 </div>
