@@ -6,4 +6,4 @@ Currently made with React & Tailwind.
 
 ## What I'm working on
 - Database for email subscriptions
-- New layout for a ore personalized feel
+- New layout for a more personalized feel
