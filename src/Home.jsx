@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <NavBar />
-      <section id='Home'>
+      <section id='Home' className='cursor-default'>
         <img src={BG} alt='img of downtown Denver, CO' rel='norel' 
         className='z-[-1] absolute top-0 left-0 h-[95vh] w-full object-cover brightness-95 sm:w-screen sm:h-[100vh] max-sm:h-[80vh] max-sm:w-auto max-sm:object-center overflow-hidden'/>
         {/* <Fireworks /> */}
