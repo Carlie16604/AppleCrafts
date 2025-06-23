@@ -40,6 +40,9 @@ const NavBar = () => {
                             <a href='#Crafts'>
                                 <div>Crafts</div>
                             </a>
+                            <a href='#Info'>
+                                <div>Shop!</div>
+                            </a>
                             <a href='#Contact'>
                                 <div>Contact</div>
                             </a>
@@ -52,6 +55,7 @@ const NavBar = () => {
                             <div className="mobile-links">
                                     <a onClick={toggleMobileNav} href="#Home">Home</a>
                                     <a onClick={toggleMobileNav} href="#Crafts">Crafts</a>
+                                    <a onClick={toggleMobileNav} href="#Info">Shop!</a> 
                                     <a onClick={toggleMobileNav} href="#Contact">Contact</a>
                             </div>
                         </div>
