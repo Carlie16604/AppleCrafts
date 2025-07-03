@@ -535,17 +535,6 @@ ul:hover a:hover ~ a:before {
   }
 }
 
-/* Info ----------------------------------------------------------------------------- */
-
-.img-about {
-  justify-self: center;
-  background-size: cover;
-  border-radius: 25%;
-  height: 425px;
-  width: auto;
-}
-
-
 /* Flower --------------------------------------------------------------------------- */
 
 .flowerContainer {

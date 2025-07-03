@@ -8,7 +8,7 @@ const Info = () => {
             <div className='container'>
                 <div className='flex justify-center pt-16 cursor-default'>
                     <div>
-                        <img className='img-about max-sm: px-6' src={Shelf} alt='test pic'/> 
+                        <img className='justify-self-center bg-cover rounded-tl-[100px] h-[425px] w-[auto] max-sm: px-6' src={Shelf} alt='test pic'/> 
                             <div className='flex-wrap justify-center'>
                                 <h4 className='text-[50px] font-thin pt-12 overflow-hidden py-8 justify-self-center'>Shop!</h4>
                                 <p className='text-[25px] max-sm:text-center max-sm:text-[1.75rem] max-sm:pb-2 max-sm:px-6'>As of recent, Apple Crafts has expanded into a boutique located at 
